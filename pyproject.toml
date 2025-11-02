@@ -7,9 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11" 
-fastapi = "^0.110.0" 
-uvicorn = {extras = ["standard"], version = "^0.29.0"} # ASGIサーバー
-yt-dlp = "^2024.04.09" # yt-dlp本体
+fastapi = "^0.120.4" 
+uvicorn = {extras = ["standard"], version = "^0.38.0"} # ASGIサーバー
+yt-dlp = "^2025.10.22" # yt-dlp本体
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
