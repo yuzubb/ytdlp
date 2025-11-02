@@ -4,6 +4,9 @@ version = "1.0.0"
 description = "A FastAPI server to interact with yt-dlp on Render."
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+# ↓↓↓ この行を追加する ↓↓↓
+package-mode = false
+# ↑↑↑ この行を追加する ↑↑↑
 
 [tool.poetry.dependencies]
 python = "^3.11" 
